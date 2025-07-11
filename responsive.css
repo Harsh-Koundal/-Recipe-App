@@ -1,0 +1,33 @@
+@media (max-width:470px) {
+    .fav {
+        font-size: small;
+    }
+
+    header input {
+        margin-left: 40px;
+    }
+
+    .recipe-card {
+        width: 130px;
+        height: 195px;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        width: 110px;
+    }
+
+    #save {
+        margin-left: 5px;
+    }
+    .recipe-card h3{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    #recipeDetails p{
+        margin: 0 20px;
+        font-size: 12px;
+        text-align: start;
+    }
+}
